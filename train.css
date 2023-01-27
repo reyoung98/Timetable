@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    background-color: rgb(62, 62, 126);
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+tr {
+    background-color: #eceff4;
+}
+
+.delayed {
+    background-color: pink;
+}
+
+td {
+    padding: .5rem 2rem;
+    /* background-color: #eceff4; */
+}
+
+button {
+    padding: .5rem;
+    border: none;
+    background-color:  rgba(62, 62, 126, .5);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(62, 62, 126);
+    color: white;
+}
